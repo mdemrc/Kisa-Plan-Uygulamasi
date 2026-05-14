@@ -23,7 +23,7 @@ Integrated Security pointing at **`(local)\SQLEXPRESS`** with catalog **`KisaPla
 
 ### Genel bakış
 
-**Kısa plan uygulaması**, sınav sürecinde **konu başlığı** ve **plan detayı** satırlarını veritabanında saklayıp **DataGridView** üzerinde yönetmek için yazılmıştır. Varsayılan hedef MSSQL `\KisaPlan\` veritabanı ve `\SQLEXPRESS | (local)` örneği; `App.config` dosyasında birden fazla `KisaPlanEntities*` tanımı varsa derste hangi bağlamın geçerli olduğunu doğrulayın.
+**Kısa plan uygulaması**, sınav sürecinde **konu başlığı** ve **plan detayı** satırlarını veritabanında saklayıp **DataGridView** üzerinde yönetmek için yazılmıştır. Varsayılan hedef MSSQL **`KisaPlan`** veritabanı ve **`(local)\SQLEXPRESS`** örneği; `App.config` içinde birden fazla `KisaPlanEntities*` tanımı varsa derste hangi bağlamın aktif olduğunu doğrulayın.
 
 ### Ne öğretir?
 
