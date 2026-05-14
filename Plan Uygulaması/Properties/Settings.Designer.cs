@@ -26,7 +26,7 @@ namespace Plan_Uygulaması.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=GRANGER\\SQLEXPRESS;Initial Catalog=KisaPlan;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=(local)\\SQLEXPRESS;Initial Catalog=KisaPlan;Integrated Security=True")]
         public string KisaPlanConnectionString {
             get {
                 return ((string)(this["KisaPlanConnectionString"]));
